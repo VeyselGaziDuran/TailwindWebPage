@@ -20,7 +20,11 @@ module.exports = {
         'vage-melon': '#FFD369',
         'vage-grey': '#DDDDDD',
         'vage-white': '#F7F7F7'
-      }
+      },
+
+      spacing: {
+        128: '32rem',
+      },
     }
   },
   plugins: []
