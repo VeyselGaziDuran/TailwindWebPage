@@ -1,6 +1,6 @@
 # TailwindWebPage
 
-This project, TailwindWebPage, is a web application built using Tailwind CSS for XYZ purposes. You can follow the steps below to run the project in your local development environment or deploy it.
+This project, TailwindWebPage, is a web application that I developed as a part of my learning process to gain experience with Tailwind CSS. It doesn't have a specific purpose or use case; rather, it serves as a sandbox for me to experiment, practice, and learn. You can follow the steps below to run the project in your local development environment or deploy it.
 
 ## Requirements
 
