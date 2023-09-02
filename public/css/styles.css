@@ -642,6 +642,10 @@ a {
   height: 100%;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -674,8 +678,16 @@ a {
   flex-basis: 66.666667%;
 }
 
+.basis-3\/4 {
+  flex-basis: 75%;
+}
+
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -688,6 +700,10 @@ a {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -919,6 +935,10 @@ a {
   font-family: Gemunu Libre, sans-serif;
 }
 
+.font-open {
+  font-family: Open Sans, sans-serif;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1087,12 +1107,20 @@ a {
     flex-basis: 25%;
   }
 
+  .md\:basis-1\/2 {
+    flex-basis: 50%;
+  }
+
   .md\:pl-0 {
     padding-left: 0px;
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1107,6 +1135,10 @@ a {
 
   .lg\:h-4 {
     height: 1rem;
+  }
+
+  .lg\:h-full {
+    height: 100%;
   }
 
   .lg\:w-2\/3 {
@@ -1127,6 +1159,18 @@ a {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 
   .lg\:space-x-16 > :not([hidden]) ~ :not([hidden]) {
@@ -1154,6 +1198,10 @@ a {
 
   .lg\:pl-0 {
     padding-left: 0px;
+  }
+
+  .lg\:pb-16 {
+    padding-bottom: 4rem;
   }
 
   .lg\:text-6xl {

@@ -15,7 +15,7 @@
     <link href="./css/styles.css" rel="stylesheet" />
     <title>My Tailwind CSS Website</title>
   </head>
-  <body>
+  <body class="font-open">
     <!-- Header -->
     <header class="bg-black py-6 lg:py-12 text-vage-grey uppercase">
       <!-- Header Container -->
@@ -59,7 +59,7 @@
     </header>
 
     <!-- Hero -->
-    <section class="h-64 md:h-95 lg:h-128 group relative">
+    <section class="h-96 lg:h-128 group relative">
       <!-- Hero Image -->
       <img src="./images/batman.jpg" alt="hero" class="w-full h-full object-cover" />
       <!-- Hero Content -->
@@ -232,13 +232,13 @@
           </div>
         </div>
         <!-- Right Content -->
-        <div class="basis-1/3">
+        <div class="basis-1/3 pl-10 lg:pl-0">
           <!-- Title -->
           <h2 class="text-vage-grey mb-8">Hot News</h2>
           <!-- News Container -->
-          <div class="flex flex-col h-full pb-16 justify-between space-y-4">
+          <div class="flex flex-row lg:flex-col lg:h-full lg:pb-16 justify-start lg:justify-between flex-wrap lg:flex-nowrap space-y-4">
             <!-- Item -->
-            <div class="flex items-center group">
+            <div class="flex items-center group basis-3/4 md:basis-1/2">
               <!-- News Images Container-->
               <div class="basis-1/3 h-full">
                 <img src="./images/new1.jpg" alt="#" class="w-full h-full object-cover">
@@ -250,7 +250,7 @@
               </div>
             </div>
             <!-- Item -->
-            <div class="flex items-center group">
+            <div class="flex items-center group basis-3/4 md:basis-1/2">
               <!-- News Images Container-->
               <div class="basis-1/3 h-full">
                 <img src="./images/new1.jpg" alt="#" class="w-full h-full object-cover">
@@ -262,7 +262,7 @@
               </div>
             </div>
             <!-- Item -->
-            <div class="flex items-center group">
+            <div class="flex items-center group basis-3/4 md:basis-1/2">
               <!-- News Images Container-->
               <div class="basis-1/3 h-full">
                 <img src="./images/new1.jpg" alt="#" class="w-full h-full object-cover">
@@ -274,7 +274,7 @@
               </div>
             </div>
             <!-- Item -->
-            <div class="flex items-center group">
+            <div class="flex items-center group basis-3/4 md:basis-1/2">
               <!-- News Images Container-->
               <div class="basis-1/3 h-full">
                 <img src="./images/new1.jpg" alt="#" class="w-full h-full object-cover">
@@ -286,7 +286,7 @@
               </div>
             </div>
             <!-- Item -->
-            <div class="flex items-center group">
+            <div class="flex items-center group basis-3/4 md:basis-1/2 md:hidden lg:flex">
               <!-- News Images Container-->
               <div class="basis-1/3 h-full">
                 <img src="./images/new1.jpg" alt="#" class="w-full h-full object-cover">
