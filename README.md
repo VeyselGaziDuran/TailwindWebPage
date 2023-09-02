@@ -15,7 +15,7 @@ This project, TailwindWebPage, is a web application built using Tailwind CSS for
 
 
 
-## Navigate to the project directory: cd TailwindWebPage
+## Navigate to the project directory: `cd TailwindWebPage`
 ## Install the required packages: npm install
 ## Install Tailwind CSS: npm install tailwindcss
 ## Create the Tailwind CSS configuration file: npx tailwindcss init
