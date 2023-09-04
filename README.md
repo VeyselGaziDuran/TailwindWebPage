@@ -16,10 +16,11 @@ This project, TailwindWebPage, is a web application that I developed as a part o
 
 
 ## Navigate to the project directory: `cd TailwindWebPage`
+
 ## Install the required packages: `npm install`
-## Install Tailwind CSS: `npm install tailwindcss`
-## Create the Tailwind CSS configuration file: `npx tailwindcss init`
-## Start the project: `npm start`
+
+## Start the project: `npm run watch`
+
 Usage
 Once the project is running, you can view it in your browser by navigating to 
 `http://localhost:3000.`
