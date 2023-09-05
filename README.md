@@ -8,7 +8,7 @@ This project, TailwindWebPage, is a web application that I developed as a part o
 
 ## 2. Installation
 
-1. Clone this project:
+ Clone this project:
 
    ```bash
    git clone https://github.com/VeyselGaziDuran/TailwindWebPage.git
