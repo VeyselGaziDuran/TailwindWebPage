@@ -2,11 +2,11 @@
 
 This project, TailwindWebPage, is a web application that I developed as a part of my learning process to gain experience with Tailwind CSS. It doesn't have a specific purpose or use case; rather, it serves as a sandbox for me to experiment, practice, and learn. You can follow the steps below to run the project in your local development environment or deploy it.
 
-## Requirements
+## 1. Requirements
 
 - Node.js and npm must be installed.
 
-## Installation
+## 2. Installation
 
 1. Clone this project:
 
