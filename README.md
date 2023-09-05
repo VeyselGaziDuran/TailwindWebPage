@@ -15,16 +15,16 @@ This project, TailwindWebPage, is a web application that I developed as a part o
 
 
 
-## Navigate to the project directory:
+## 2. Navigate to the project directory:
 ```bash
 cd TailwindWebPage
 ```
-## Install the required packages: 
+## 3. Install the required packages: 
 ```bash
 npm install
 ```
 
-## Start the project: 
+## 4. Start the project: 
 ```bash
 npm run watch
 ```
