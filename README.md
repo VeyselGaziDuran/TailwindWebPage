@@ -19,11 +19,19 @@ This project, TailwindWebPage, is a web application that I developed as a part o
 ```bash
 cd TailwindWebPage
 ```
-## Install the required packages: `npm install`
+## Install the required packages: 
+```bash
+npm install
+```
 
-## Start the project: `npm run watch`
+## Start the project: 
+```bash
+npm run watch
+```
 
 Usage
-Once the project is running, you can view it in your browser by navigating to 
-`http://localhost:3000.`
+Once the project is running, you can view it in your browser by navigating to
+```bash
+http://localhost:3000.
+```
 
