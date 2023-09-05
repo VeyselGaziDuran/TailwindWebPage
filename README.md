@@ -15,8 +15,10 @@ This project, TailwindWebPage, is a web application that I developed as a part o
 
 
 
-## Navigate to the project directory: `cd TailwindWebPage`
-
+## Navigate to the project directory:
+```bash
+cd TailwindWebPage
+```
 ## Install the required packages: `npm install`
 
 ## Start the project: `npm run watch`
