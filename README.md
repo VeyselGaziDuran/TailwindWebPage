@@ -12,6 +12,7 @@ This project, TailwindWebPage, is a web application that I developed as a part o
 
    ```bash
    git clone https://github.com/VeyselGaziDuran/TailwindWebPage.git
+   ```
 
 
 
