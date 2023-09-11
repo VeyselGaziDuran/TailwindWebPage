@@ -1267,6 +1267,11 @@ a {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+:is(.dark .dark\:hover\:text-vage-red:hover) {
+  --tw-text-opacity: 1;
+  color: rgb(188 26 69 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:-top-12 {
     top: -3rem;
