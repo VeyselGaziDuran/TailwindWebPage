@@ -970,6 +970,11 @@ a {
   padding-bottom: 2rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pl-10 {
   padding-left: 2.5rem;
 }
@@ -1195,6 +1200,16 @@ a {
     flex-basis: 66.666667%;
   }
 
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .md\:pl-0 {
     padding-left: 0px;
   }
@@ -1211,6 +1226,10 @@ a {
 
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:flex {
@@ -1292,6 +1311,11 @@ a {
     padding-bottom: 3rem;
   }
 
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .lg\:pb-16 {
     padding-bottom: 4rem;
   }
@@ -1317,5 +1341,12 @@ a {
 
   .group:hover .lg\:group-hover\:mb-20 {
     margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
